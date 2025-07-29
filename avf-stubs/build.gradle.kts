@@ -66,7 +66,7 @@ mavenPublishing {
     publishToMavenCentral()
     signAllPublications()
 
-    coordinates("io.freund.adrian.android.virtualmachine", "avf-stubs", "1.0")
+    coordinates("io.freund.adrian.android.virtualmachine", "avf-stubs", "1.1-SNAPSHOT")
 
     pom {
         name = "Android Virtualization Framework Stubs"
