@@ -37,7 +37,7 @@ image to run any software you like.
 Add the following dependency to your app. It is important to include it as `compileOnly`.
 ```kotlin
 depencencies {
-    compileOnly("io.freund.adrian.android.virtualmachine:stubs:1.0")
+    compileOnly("io.freund.adrian.android.virtualmachine:avf-stubs:1.0")
 }
 ```
 
