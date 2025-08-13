@@ -26,7 +26,10 @@ android {
     lint {
         checkAllWarnings = true
         warningsAsErrors = true
-        disable += "UnknownNullness"
+        disable += listOf(
+            "UnknownNullness",  // Upstream Android source doesn't use strict nullness
+            "AndroidGradlePluginVersion",  // We use dependabot instead. Don't want CI to fail because of this
+        )
     }
 
     compileOptions {
